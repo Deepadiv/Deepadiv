@@ -1,0 +1,12 @@
+str=input ("enter the string")
+s1=[]
+s2=' '
+count=80
+While  len(s1)<len(str):
+     for i in str:
+         if ord(i)==count:
+             s1.append(i);
+     count+=1
+s2=(''.join(1))
+print (" the sorted string is:",s2)
+ 
