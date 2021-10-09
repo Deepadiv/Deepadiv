@@ -1,0 +1,15 @@
+n=int(input ("enter the number:"))
+a=0
+b=1
+temp=0
+ans=1
+print ("fibonacci series is:")
+print ("0")
+print ("1")
+for i in range (2,n):
+    temp=a+b
+    a=b
+    b=temp
+    print (temp);
+    ans=ans+temp
+print ("the sum of fibonacci series is:",ans)
