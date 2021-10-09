@@ -1,0 +1,10 @@
+n1=4
+n2=4
+print ("hallow rectangle star pattern:")
+for i in range (n1):
+    for j in range (n2):
+        if(i==0 or i==n-1 or j==0 or j==n2-1):
+            print ('*',end='')
+        else:
+            print (' ',end='')
+    print ()
