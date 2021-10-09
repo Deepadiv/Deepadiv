@@ -1,0 +1,5 @@
+string=input ("enter the string:")
+rev=" "
+for i in string:
+    rev=i+rev
+print ("reverse string is:",rev)
